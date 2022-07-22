@@ -21,6 +21,8 @@ const months = [
   "Dec",
 ];
 
+
+// Uses ISO 8601 as date format in JSON (Standard format)
 const Workout = ({ index }) => {
   const userId = USER_DATA.users[index].userId;
   const performedDate = new Date(USER_DATA.users[index].performedDate);
